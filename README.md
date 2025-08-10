@@ -2,7 +2,18 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First create `.env` files:
+
+```env
+DB_USER="database username"
+DB_HOST="database hostname"
+DB_DATABASE="database name"
+DB_PASSWORD="database password"
+DB_PORT=3306
+DB_DRIVER=mysql2
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
